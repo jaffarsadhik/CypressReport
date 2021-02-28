@@ -1,6 +1,6 @@
-describe('MoneyControl', function(){
+describe('Client:MoneyControl, Recipe:pz44nQqMye8i9x4Nt', function(){
 
-    it('MCLogin', function(){
+    it('Profeatures & Others', function(){
         cy.visit('https://moneycontrol.stage.verloop.io/livechat?mode=popout&recipe_id=pz44nQqMye8i9x4Nt')
         cy.contains('Welcome to MoneyControl',{timeout:10000}).should('be.visible')
         cy.get('.input-message').type('Moneycontrol Pro')

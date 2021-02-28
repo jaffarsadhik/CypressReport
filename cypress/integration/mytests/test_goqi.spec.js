@@ -1,4 +1,4 @@
-describe('Goqii', function(){
+describe('Client:Goqii,Recipe:bBPicT8cPraR2TbpT', function(){
 
     it('GoqiIssues', function(){
         cy.visit('https://goqii.verloop.io/livechat?mode=popout&recipe_id=bBPicT8cPraR2TbpT')

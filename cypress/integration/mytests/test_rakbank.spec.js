@@ -1,6 +1,6 @@
-describe('Rakbank', function(){
+describe('Client:Rakbank, Recipe:RKpCe4tZjQ4iL2H6y', function(){
 
-    it('ContactTest', function(){
+    it('Contactus Test', function(){
         cy.visit('https://rakbank.stage.verloop.io/livechat?mode=popout&recipe_id=RKpCe4tZjQ4iL2H6y')
         cy.contains('your digital assistant',{timeout:10000}).should('be.visible')
         cy.get('.input-message').type('Contact Protego')

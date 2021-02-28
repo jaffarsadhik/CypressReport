@@ -1,4 +1,4 @@
-describe('Lido', function(){
+describe('Client:Lido, Recipe:LvEBP257Cr4P5uNE7', function(){
 
     it('tutorflowtest', function(){
         cy.visit('https://lidotutorsupport.verloop.io/livechat?mode=popout&recipe_id=LvEBP257Cr4P5uNE7')
